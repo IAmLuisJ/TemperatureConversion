@@ -12,7 +12,7 @@ def convert_c_to_f(celTemp):
 #for in loop range of temps
 for x in range(0, 212, 40):
     cTemp = round(convert_f_to_c(x),2)
-    print(str(x) +' Farhenheit = ' + str(cTemp) + "Celsius")
+    print(str(x) +' Farhenheit = ' + str(cTemp) + " Celsius")
 #print results and round to 2 dec places
 
 for y in range(0, 100, 20):
